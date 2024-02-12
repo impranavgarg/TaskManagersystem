@@ -1,33 +1,17 @@
-Task Manager System
-Overview
-Task Manager System is a web-based application designed to help individuals or teams organize, track, and manage tasks efficiently. It provides a comprehensive platform for creating tasks, assigning them to team members, setting deadlines, and monitoring progress.
+# Task Manager System
 
-Problem-Solving Statement
-The Task Manager System addresses the following common challenges faced by teams and individuals:
+## Overview
+The Task Manager System is a comprehensive application built to facilitate efficient task management within teams or organizations. It provides a centralized platform for creating, assigning, tracking, and prioritizing tasks, streamlining collaboration and enhancing productivity.
 
-Disorganized Task Management: Without a centralized system, tasks can easily get lost in email threads or spreadsheets, leading to confusion and inefficiency.
+## Problem Solving Statement
+In today's fast-paced work environments, organizations often face challenges in managing tasks effectively. Common issues include:
 
-Difficulty Tracking Progress: It's challenging to track the progress of tasks and identify bottlenecks without a centralized platform, leading to delays and missed deadlines.
+1. **Disorganized Task Management**: Tasks scattered across various platforms or communicated through disparate channels lead to confusion and inefficiency.
 
-Lack of Accountability: Without clear assignment and tracking of tasks, it's difficult to hold team members accountable for their responsibilities, which can impact productivity and project success.
+2. **Lack of Visibility**: Without a centralized system, team members may lack visibility into each other's tasks, hindering coordination and collaboration.
 
-Limited Collaboration: Team members may work in silos, unaware of each other's tasks or progress, hindering collaboration and coordination.
+3. **Missed Deadlines**: Inadequate tracking mechanisms make it difficult to prioritize tasks and meet deadlines, resulting in delays and project setbacks.
 
-Missed Deadlines: Without a system to manage deadlines and priorities effectively, important tasks may be overlooked, leading to missed deadlines and project delays.
+4. **Limited Accountability**: Without clear assignment and tracking mechanisms, it's challenging to hold team members accountable for their responsibilities, impacting overall productivity and morale.
 
-Features
-The Task Manager System offers the following key features to address the aforementioned challenges:
-
-Task Creation: Easily create new tasks with details such as title, description, priority, and deadline.
-
-Task Assignment: Assign tasks to specific team members, clarifying responsibilities and promoting accountability.
-
-Deadline Tracking: Set deadlines for tasks and receive notifications to ensure timely completion.
-
-Progress Monitoring: Track the progress of tasks in real-time, identifying bottlenecks and adjusting priorities as needed.
-
-Collaboration Tools: Built-in communication tools facilitate collaboration among team members, allowing them to discuss tasks and share updates.
-
-Reporting and Analytics: Generate reports and analytics to gain insights into team performance, workload distribution, and project progress.
-
-User Authentication and Authorization: Secure user authentication and authorization mechanisms to protect sensitive task information.
+5. **Complexity of Existing Solutions**: Many existing task management tools are either too complex for the organization's needs, requiring extensive training and customization, or lack essential features for effective task management.
