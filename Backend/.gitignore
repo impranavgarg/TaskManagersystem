@@ -1,0 +1,57 @@
+# Spring Boot specific
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE files
+.idea/
+*.iml
+
+# Logs
+logs/
+*.log
+
+# Compiled class file
+*.class
+
+# Maven specific
+/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle specific
+.gradle/
+build/
+
+# Eclipse specific
+.classpath
+.project
+.settings/
+
+# Intellij specific
+*.iml
+*.iws
+*.ipr
+
+# VS Code specific
+.vscode/
+
+# macOS specific
+.DS_Store
+
+# Compiled Java bytecode
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Dependency directories
+lib/

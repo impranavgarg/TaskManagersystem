@@ -1,0 +1,79 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th class="with-border">In Progress Tasks</th>
+        <th class="with-border">To Do Tasks</th>
+        <th class="with-border">Completed Tasks</th>
+        <th>Blocked Tasks</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="with-border">
+          <div class="card-columns">
+            <div class="card dark" *ngFor="let task of inProgressTasks">
+              <div class="card-body">
+                <h5 class="card-title">{{ task.name }}</h5>
+                <p class="card-text">{{ task.description }}</p>
+                <p class="card-text">{{ task.status }}</p>
+                <div>
+                  <button (click)="updateTask(task.id)" class="btn btn-sm btn-warning">Update</button>
+                  <button (click)="deleteTask(task.id)" class="btn btn-sm btn-danger" style="margin-left: 10px">Delete</button>
+                  <button (click)="taskdetails(task.id)" class="btn btn-sm btn-success" style="margin-left: 10px">View</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+        <td class="with-border">
+          <div class="card-columns">
+            <div class="card dark"  *ngFor="let task of todoTasks">
+              <div class="card-body">
+                <h5 class="card-title">{{ task.name }}</h5>
+                <p class="card-text">{{ task.description }}</p>
+                <p class="card-text">{{ task.status }}</p>
+                <div>
+                  <button (click)="updateTask(task.id)" class="btn  btn-sm btn-warning">Update</button>
+                  <button (click)="deleteTask(task.id)" class="btn btn-sm btn-danger" style="margin-left: 10px">Delete</button>
+                  <button (click)="taskdetails(task.id)" class="btn btn-sm btn-success" style="margin-left: 10px">View</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+        <td class="with-border">
+          <div class="card-columns">
+            <div class="card dark" *ngFor="let task of completedTasks">
+              <div class="card-body">
+                <h5 class="card-title">{{ task.name }}</h5>
+                <p class="card-text">{{ task.description }}</p>
+                <p class="card-text">{{ task.status }}</p>
+                <div>
+                  <button (click)="updateTask(task.id)" class="btn btn-sm btn-warning">Update</button>
+                  <button (click)="deleteTask(task.id)" class="btn btn-sm btn-danger" style="margin-left: 10px">Delete</button>
+                  <button (click)="taskdetails(task.id)" class="btn btn-sm btn-success" style="margin-left: 10px">View</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="card-columns">
+            <div class="card dark" *ngFor="let task of blockedTasks">
+              <div class="card-body">
+                <h5 class="card-title">{{ task.name }}</h5>
+                <p class="card-text">{{ task.description }}</p>
+                <p class="card-text">{{ task.status }}</p>
+                <div>
+                  <button (click)="updateTask(task.id)" class="btn btn-sm btn-warning">Update</button>
+                  <button (click)="deleteTask(task.id)" class="btn btn-sm btn-danger" style="margin-left: 10px">Delete</button>
+                  <button (click)="taskdetails(task.id)" class="btn btn-sm btn-success" style="margin-left: 10px">View</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  

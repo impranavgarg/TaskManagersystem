@@ -1,0 +1,22 @@
+<div class="container mt-5">
+    <div class="card">
+      <div class="card-header">
+        <h2 class="card-title">Register</h2>
+      </div>
+      <div class="card-body">
+        <form (ngSubmit)="register()">
+          <div class="mb-3">
+            <label for="username" class="form-label">Username</label>
+            <input type="text" class="form-control" id="username" [(ngModel)]="user.username" name="username">
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" [(ngModel)]="user.password" name="password">
+          </div>
+          <button type="submit" class="btn btn-success">Register</button>
+
+        </form>
+      </div>
+    </div>
+  </div>
+  

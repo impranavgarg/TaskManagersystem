@@ -1,0 +1,19 @@
+<div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-9">
+        <div class="card dark">
+          <div class="card-body">
+            <h5 class="card-title">{{ task.name }}</h5>
+            <p class="card-text">{{ task.description }}</p>
+            <p class="card-text">{{ task.status }}</p>
+            <div>
+              <button (click)="updateTask(task.id)" class="btn btn-sm btn-warning">Update</button>
+              <button (click)="deleteTask(task.id)" class="btn btn-sm btn-danger" style="margin-left: 10px">Delete</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

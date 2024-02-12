@@ -1,0 +1,36 @@
+<div *ngIf="searchResults && searchResults.length > 0" class="search-results">
+    
+<table class = "table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th> Task Name</th>
+            <th> Task Description </th>
+            <th> Task Status</th>
+            <th> Actions </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let task of searchResults" >
+            <td> {{ task.name }} </td>
+            <td> {{ task.description }} </td>
+            <td> {{ task.status }} </td>
+            <td>
+                <button (click) = "updateTask(task.id)"
+                class = "btn btn-warning"> Update</button>
+                <button (click) = "deleteTask(task.id)"
+                class = "btn btn-danger" style="margin-left: 10px"> Delete</button>
+                <button (click) = "taskdetails(task.id)"
+                class = "btn btn-success" style="margin-left: 10px"> View</button>
+            </td>
+        </tr>
+        <tr *ngIf="searchResults.length === 0">
+            <h2>no task found</h2>
+          </tr>
+    </tbody>
+</table>
+
+</div>
+
+<div *ngIf="searchResults && searchResults.length === 0">
+    <p>No tasks found matching your search.</p>
+</div>

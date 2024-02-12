@@ -1,0 +1,31 @@
+<div class="container mt-5">
+    <div class="card">
+      <div class="card-header">
+        <h2 class="card-title">Add Task</h2>
+      </div>
+      <div class="card-body">
+        <form (ngSubmit)="onSubmit()">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" placeholder="Enter Task Name "  id="name" name="name" [(ngModel)]="task.name" required>
+          </div>
+          <div class="mb-3">
+            <label for="description" class="form-label">Description</label>
+            <textarea class="form-control"placeholder="Enter Task Description"  id="description" name="description" [(ngModel)]="task.description" required></textarea>
+          </div>
+          <div class="mb-3">
+            <label for="status" class="form-label">Status</label>
+            <select class="form-control"  id="status" name="status" [(ngModel)]="task.status" required>
+              <option selected disabled  >Choose Task Status</option>
+              <option value="todo">Todo</option>
+              <option value="inProgress">In Progress</option>
+              <option value="blocked">Blocked</option>
+              <option value="complete">Complete</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-success">Add Task</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
