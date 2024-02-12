@@ -21,13 +21,8 @@ The Task Manager System addresses these challenges through the following key fea
   
 - **Task Creation and Management**: Users can easily create, edit, and delete tasks from their dashboard, providing complete control over their task list.
   
-- **Priority Setting**: Users can assign priorities to tasks to indicate their importance and urgency, helping them stay focused on critical tasks.
-  
-- **Deadline Tracking**: Clear deadlines are associated with each task, allowing users to prioritize their work and ensure timely completion.
-  
 - **Task Status Updates**: Users can update the status of tasks, providing real-time visibility into progress and completion.
-  
-- **Notification System**: Automated notifications remind users of upcoming deadlines, ensuring tasks are completed on time.
+
 
 ## Getting Started
 To start using the Task Manager System, follow these steps:
@@ -38,9 +33,7 @@ To start using the Task Manager System, follow these steps:
 
 3. **Task Management**: Manage your tasks by editing, deleting, or updating their status as needed.
 
-4. **Priority and Deadline Management**: Set priorities and deadlines for tasks to manage your workload effectively.
-
-5. **Tracking Progress**: Monitor task progress and receive notifications for upcoming deadlines.
+4. **Tracking Progress**: Monitor task progress and receive notifications for upcoming deadlines.
 
 ## Support
 If you encounter any issues or have any questions, please don't hesitate to reach out to our support team at [impranavgarg@email.com].
